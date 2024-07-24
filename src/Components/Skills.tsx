@@ -12,6 +12,7 @@ const Skills: React.FC = () => {
 
   return (
     <section className="bg-black text-white p-6">
+      <hr className='py-8 px-8' />
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
         {skills.map(skill => (
           <div key={skill.name} className="ml-5">
